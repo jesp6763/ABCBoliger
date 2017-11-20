@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCBoliger.Ui", "ABCBoliger.Ui\ABCBoliger.Ui.csproj", "{2E467FFA-6546-4441-994C-B6E13A13B752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCBoliger.Entities", "ABCBoliger.Entities\ABCBoliger.Entities.csproj", "{FD4B3131-CA67-405D-AAAB-67249B160011}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E467FFA-6546-4441-994C-B6E13A13B752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E467FFA-6546-4441-994C-B6E13A13B752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E467FFA-6546-4441-994C-B6E13A13B752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E467FFA-6546-4441-994C-B6E13A13B752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4B3131-CA67-405D-AAAB-67249B160011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4B3131-CA67-405D-AAAB-67249B160011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4B3131-CA67-405D-AAAB-67249B160011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4B3131-CA67-405D-AAAB-67249B160011}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
